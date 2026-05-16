@@ -1,0 +1,74 @@
+export default function App() {
+  return (
+    <div className="min-h-screen bg-green-50 text-gray-900">
+      
+      <header className="bg-green-900 text-white p-6 shadow-lg">
+        <h1 className="text-4xl font-bold">
+          Herbal Artista
+        </h1>
+        <p className="mt-2 text-lg">
+          Natural wellness, workshops, herbal products, and community events.
+        </p>
+      </header>
+
+      <section className="p-10">
+        <h2 className="text-3xl font-semibold mb-4">
+          Welcome
+        </h2>
+
+        <p className="text-lg max-w-2xl">
+          Herbal Artista blends wellness, gardening, natural living,
+          education, and community into one growing movement.
+        </p>
+
+        <button className="mt-6 bg-green-800 text-white px-6 py-3 rounded-xl hover:bg-green-700">
+          Explore Events
+        </button>
+      </section>
+
+      <section className="bg-white p-10">
+        <h2 className="text-3xl font-semibold mb-6">
+          Featured Offerings
+        </h2>
+
+        <div className="grid md:grid-cols-3 gap-6">
+
+          <div className="bg-green-100 p-6 rounded-2xl shadow">
+            <h3 className="text-2xl font-bold mb-2">
+              Wellness Market
+            </h3>
+
+            <p>
+              Monthly outdoor wellness experiences connecting community,
+              makers, growers, and educators.
+            </p>
+          </div>
+
+          <div className="bg-green-100 p-6 rounded-2xl shadow">
+            <h3 className="text-2xl font-bold mb-2">
+              Herbal Products
+            </h3>
+
+            <p>
+              Natural oils, skin care, pain relief blends,
+              and handcrafted wellness products.
+            </p>
+          </div>
+
+          <div className="bg-green-100 p-6 rounded-2xl shadow">
+            <h3 className="text-2xl font-bold mb-2">
+              Workshops
+            </h3>
+
+            <p>
+              Gardening, composting, herbal wellness,
+              and DIY natural living classes.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+  )
+}
